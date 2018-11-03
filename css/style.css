@@ -15,8 +15,6 @@ body {
   margin: -10em auto 0 auto;
 }
 
-/* ============================================== Candle
-*/
 .velas {
   background: #ffffff;
   border-radius: 10px;
@@ -56,9 +54,7 @@ body {
   left: 0;
 }
 
-/* ============================================== Fire
-*/
-.fuego {
+.lumanare {
   border-radius: 100%;
   position: absolute;
   top: -20px;
@@ -68,34 +64,32 @@ body {
   height: 18px;
 }
 
-.fuego:nth-child(1) {
-  -webkit-animation: fuego 2s 6.5s infinite;
-  animation: fuego 2s 6.5s infinite;
+.lumanare:nth-child(1) {
+  -webkit-animation: lumanare 2s 6.5s infinite;
+  animation: lumanare 2s 6.5s infinite;
 }
 
-.fuego:nth-child(2) {
-  -webkit-animation: fuego 1.5s 6.5s infinite;
-  animation: fuego 1.5s 6.5s infinite;
+.lumanare:nth-child(2) {
+  -webkit-animation: lumanare 1.5s 6.5s infinite;
+  animation: lumanare 1.5s 6.5s infinite;
 }
 
-.fuego:nth-child(3) {
-  -webkit-animation: fuego 1s 6.5s infinite;
-  animation: fuego 1s 6.5s infinite;
+.lumanare:nth-child(3) {
+  -webkit-animation: lumanare 1s 6.5s infinite;
+  animation: lumanare 1s 6.5s infinite;
 }
 
-.fuego:nth-child(4) {
-  -webkit-animation: fuego 0.5s 6.5s infinite;
-  animation: fuego 0.5s 6.5s infinite;
+.lumanare:nth-child(4) {
+  -webkit-animation: lumanare 0.5s 6.5s infinite;
+  animation: lumanare 0.5s 6.5s infinite;
 }
 
-.fuego:nth-child(5) {
-  -webkit-animation: fuego 0.2s 6.5s infinite;
-  animation: fuego 0.2s 6.5s infinite;
+.lumanare:nth-child(5) {
+  -webkit-animation: lumanare 0.2s 6.5s infinite;
+  animation: lumanare 0.2s 6.5s infinite;
 }
 
-/* ============================================== Animation Fire
-*/
-@-webkit-keyframes fuego {
+@-webkit-keyframes lumanare {
   0%, 100% {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
@@ -112,7 +106,7 @@ body {
     transform: translateY(-20px) scale(0);
   }
 }
-@keyframes fuego {
+@keyframes lumanare {
   0%, 100% {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
